@@ -1,0 +1,35 @@
+@import "{{ site.theme.sass_path | append: '/jekyll-theme-chirpy' }}";
+
+.sidebar .avatar-section {
+  display: flex;
+  align-items: center; /* Vertikale Zentrierung */
+  justify-content: center; /* Horizontale Zentrierung */
+  /* WICHTIG: Definiere hier eine Höhe für den Container,
+     in dem das Bild mittig sein soll.
+     Z.B. height: 200px; oder passe es an deine Bedürfnisse an. */
+  height: 180px; /* Ein Beispielwert, der für einen Sidebar-Avatar oft passt */
+  padding: 10px 0; /* Optional: etwas vertikalen Abstand */
+}
+
+.avatar img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+// Füge diese Regeln HIER am Ende deiner _sass/jekyll-theme-chirpy.scss Datei ein
+
+body {
+  background-color: #ffcccc !important; /* Ein auffälliges Rot, um die Änderung zu sehen */
+}
+
+// Optional: Test für das Avatar-Bild
+.avatar img {
+  border: 5px solid blue !important; /* Blauer Rand um das Avatar-Bild */
+  border-radius: 50%; /* Macht das Bild rund, falls es das noch nicht ist */
+}
+
+// Optional: Test für den Seitentitel (z.B. der Titel deines Blogs)
+.site-title {
+  color: green !important; /* Macht den Titel grün */
+  font-size: 3em !important; /* Macht den Titel größer */
+}

@@ -25,6 +25,8 @@ description: >- # used by seo meta and the atom feed
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://rosaorga.github.io"
 
+css_path: "/assets/css/style.scss"
+
 github:
   username: rosaorga # change to your GitHub username
 
@@ -147,7 +149,23 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+pagination:
+  enabled: true
+  per_page: 10 # Anzahl der Posts pro Seite (ersetzt 'paginate:')
+  permalink: "/page:num/" # URL-Struktur (ersetzt 'paginate_path:')
+  title: ":title - Seite :num" # Optional: Titel für Paginierungsseiten
+  # Collection, aus der die Posts geholt werden. Standard ist 'posts'
+  # Wenn du keine Posts hast, bleibt es leer.
+  # collection: 'posts' # normalerweise nicht nötig, wenn es nur der Standard-Blog ist
+  # exclude: ['unveröffentlicht'] # Optional: Ordner ausschließen
+  # trail: # Optional: Navigationslinks am Ende (erste, letzte, nächste, vorherige)
+  #  before: 2
+  #  after: 2
+  # limits: # Optional: Limits für die Paginierung
+  #  max_pages: 5
+  #  offset: 0
+  # sort_field: 'date' # Sortierfeld für Posts
+  # sort_reverse: true # Neueste zuerst
 
 # The base URL of your site
 baseurl: ""
@@ -225,3 +243,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-paginate-v2

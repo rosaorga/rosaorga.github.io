@@ -1,35 +1,96 @@
-@import "{{ site.theme.sass_path | append: '/jekyll-theme-chirpy' }}";
+---
+---
 
-.sidebar .avatar-section {
-  display: flex;
-  align-items: center; /* Vertikale Zentrierung */
-  justify-content: center; /* Horizontale Zentrierung */
-  /* WICHTIG: Definiere hier eine Höhe für den Container,
-     in dem das Bild mittig sein soll.
-     Z.B. height: 200px; oder passe es an deine Bedürfnisse an. */
-  height: 180px; /* Ein Beispielwert, der für einen Sidebar-Avatar oft passt */
-  padding: 10px 0; /* Optional: etwas vertikalen Abstand */
+// Definition der Farben
+$sidebar-background-color: #CC0000; // Ein kräftiges Rot (für Sidebar-Hintergrund, Social Icons)
+$sidebar-text-color: #FFFFFF;     // Reines Weiß (für Sidebar-Text, Ränder der Social Icons)
+$sidebar-border-color: #AA0000; // Etwas dunkleres Rot für den Rand der Sidebar
+
+/* prettier-ignore */
+@use 'main'
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+;
+
+
+
+// ***************************************************************
+// `@use "sass:color";` MUSS HIER STEHEN, NACH @use 'main'!
+@use "sass:color";
+// ***************************************************************
+
+
+
+
+// Regel für die Sidebar (ID-Selektor mit !important, wie besprochen)
+#sidebar {
+  background-color: $sidebar-background-color !important;
+  color: $sidebar-text-color !important;
+  border-right: 1px solid color.adjust($sidebar-background-color, $lightness: -10%) !important; // HIER GEÄNDERT
 }
 
-.avatar img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-// Füge diese Regeln HIER am Ende deiner _sass/jekyll-theme-chirpy.scss Datei ein
-
-body {
-  background-color: #ffcccc !important; /* Ein auffälliges Rot, um die Änderung zu sehen */
+// Stellen wir sicher, dass die Schriftfarbe überall in der Sidebar weiß ist
+#sidebar *,
+#sidebar a {
+    color: $sidebar-text-color !important;
 }
 
-// Optional: Test für das Avatar-Bild
-.avatar img {
-  border: 5px solid blue !important; /* Blauer Rand um das Avatar-Bild */
-  border-radius: 50%; /* Macht das Bild rund, falls es das noch nicht ist */
+// Sidebar-Titel (Site-Titel)
+#sidebar .site-title {
+    color: $sidebar-text-color !important; // Sollte weiß sein
 }
 
-// Optional: Test für den Seitentitel (z.B. der Titel deines Blogs)
-.site-title {
-  color: green !important; /* Macht den Titel grün */
-  font-size: 3em !important; /* Macht den Titel größer */
+// Sidebar-Subtitle
+#sidebar .site-subtitle {
+    color: color.adjust($sidebar-text-color, $lightness: 10%) !important; // HIER GEÄNDERT
+}
+
+
+// Sidebar-Navigationslinks (Standard und Hover)
+#sidebar .nav-link {
+    color: $sidebar-text-color !important; // Standard links sind weiß
+}
+
+#sidebar .nav-link:hover,
+#sidebar .nav-link.active {
+    background-color: color.adjust($sidebar-background-color, $lightness: -10%) !important; // HIER GEÄNDERT
+    color: $sidebar-text-color !important; // Bleibt weiß beim Hover
+}
+
+
+// --- AVATAR BILD (Hintergrund weiß) ---
+#avatar {
+  background-color: $sidebar-text-color !important; // Weißer Hintergrund
+  border: 2px solid $sidebar-background-color !important; // Roter Rand um den Avatar-Kreis
+  padding: 5px !important; // Etwas Polsterung, damit der weiße Hintergrund sichtbar wird
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); // Leichter Schatten
+}
+
+#avatar img {
+  border-radius: 50% !important; // Stellt sicher, dass das Bild rund ist
+  display: block; // Damit margin auto funktioniert
+  margin: 0 auto; // Zentriert das Bild horizontal im Avatar-Kreis
+}
+
+
+// --- SHARE ICONS (Unten in der Sidebar) ---
+.sidebar-bottom a { // Die Links der Social Icons
+  background-color: $sidebar-background-color !important; // Roter Hintergrund
+  color: $sidebar-text-color !important; // Weiße Icons
+  border: 1px solid $sidebar-text-color !important; // Weißer Rand
+  border-radius: 50% !important; // Macht die Buttons rund
+  padding: 8px !important; // Größe des Icons/Buttons anpassen
+  margin: 5px !important; // Abstand zwischen den Icons
+  display: flex !important; // Für Zentrierung des Icons im Kreis
+  justify-content: center !important;
+  align-items: center !important;
+  width: 40px !important; // Feste Breite und Höhe für perfekte Kreise
+  height: 40px !important;
+}
+
+.sidebar-bottom a:hover {
+  background-color: color.adjust($sidebar-background-color, $lightness: -10%) !important; // HIER GEÄNDERT
+  color: $sidebar-text-color !important; // Icons bleiben weiß
+  border-color: color.adjust($sidebar-text-color, $lightness: 10%) !important; // HIER GEÄNDERT
 }

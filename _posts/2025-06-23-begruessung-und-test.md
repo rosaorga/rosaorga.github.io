@@ -6,10 +6,6 @@ categories: [Ankuendigungen] # Wichtig für die Kategorie-Navigation
 tags: [Sozialismus, Klassenkampf, Organisation] # Wichtig für die Tag-Navigation
 pin: true
 image: /assets/img/logo.png
-# Optional: Wenn du ein großes Titelbild für den Post haben möchtest
-# image: /assets/img/hero-images/ankuendigung-banner.jpg
-# Optional: Kurze Zusammenfassung für die Blog-Liste
-# excerpt: Eine detaillierte Erklärung unserer jüngsten Initiativen und Pläne.
 ---
 
 

@@ -2,62 +2,62 @@
 ---
 
 // Definition der Farben
-$sidebar-background-color: #CC0000; // Ein kräftiges Rot (für Sidebar-Hintergrund, Social Icons)
-$sidebar-text-color: #FFFFFF;     // Reines Weiß (für Sidebar-Text, Ränder der Social Icons)
-$sidebar-border-color: #AA0000; // Etwas dunkleres Rot für den Rand der Sidebar
+$sidebar-background-color: #cc0000; // Ein kräftiges Rot (für Sidebar-Hintergrund, Social Icons)
+$sidebar-text-color: #ffffff; // Reines Weiß (für Sidebar-Text, Ränder der Social Icons)
+$sidebar-border-color: #aa0000; // Etwas dunkleres Rot für den Rand der Sidebar
 
 /* prettier-ignore */
-@use 'main'
+@use 'main
 {%- if jekyll.environment == 'production' -%}
   .bundle
 {%- endif -%}
-;
-
-
+';
 
 // ***************************************************************
 // `@use "sass:color";` MUSS HIER STEHEN, NACH @use 'main'!
-@use "sass:color";
+@use 'sass:color';
 // ***************************************************************
-
-
-
 
 // Regel für die Sidebar (ID-Selektor mit !important, wie besprochen)
 #sidebar {
   background-color: $sidebar-background-color !important;
   color: $sidebar-text-color !important;
-  border-right: 1px solid color.adjust($sidebar-background-color, $lightness: -10%) !important; // HIER GEÄNDERT
+  border-right: 1px solid
+    color.adjust($sidebar-background-color, $lightness: -10%) !important; // HIER GEÄNDERT
 }
 
 // Stellen wir sicher, dass die Schriftfarbe überall in der Sidebar weiß ist
 #sidebar *,
 #sidebar a {
-    color: $sidebar-text-color !important;
+  color: $sidebar-text-color !important;
 }
 
 // Sidebar-Titel (Site-Titel)
 #sidebar .site-title {
-    color: $sidebar-text-color !important; // Sollte weiß sein
+  color: $sidebar-text-color !important; // Sollte weiß sein
 }
 
 // Sidebar-Subtitle
 #sidebar .site-subtitle {
-    color: color.adjust($sidebar-text-color, $lightness: 10%) !important; // HIER GEÄNDERT
+  color: color.adjust(
+    $sidebar-text-color,
+    $lightness: 10%
+  ) !important; // HIER GEÄNDERT
 }
-
 
 // Sidebar-Navigationslinks (Standard und Hover)
 #sidebar .nav-link {
-    color: $sidebar-text-color !important; // Standard links sind weiß
+  color: $sidebar-text-color !important; // Standard links sind weiß
 }
 
 #sidebar .nav-link:hover,
 #sidebar .nav-link.active {
-    background-color: color.adjust($sidebar-background-color, $lightness: -10%) !important; // HIER GEÄNDERT
-    color: $sidebar-text-color !important; // Bleibt weiß beim Hover
+  background-color: color.adjust(
+    $sidebar-background-color,
+    $lightness: -10%
+  ) !important; // HIER GEÄNDERT
+  color: $sidebar-text-color !important; // Bleibt weiß beim Hover
 }
-
 
 // --- AVATAR BILD (Hintergrund weiß) ---
 #avatar {
@@ -73,9 +73,9 @@ $sidebar-border-color: #AA0000; // Etwas dunkleres Rot für den Rand der Sidebar
   margin: 0 auto; // Zentriert das Bild horizontal im Avatar-Kreis
 }
 
-
 // --- SHARE ICONS (Unten in der Sidebar) ---
-.sidebar-bottom a { // Die Links der Social Icons
+.sidebar-bottom a {
+  // Die Links der Social Icons
   background-color: $sidebar-background-color !important; // Roter Hintergrund
   color: $sidebar-text-color !important; // Weiße Icons
   border: 1px solid $sidebar-text-color !important; // Weißer Rand
@@ -90,7 +90,13 @@ $sidebar-border-color: #AA0000; // Etwas dunkleres Rot für den Rand der Sidebar
 }
 
 .sidebar-bottom a:hover {
-  background-color: color.adjust($sidebar-background-color, $lightness: -10%) !important; // HIER GEÄNDERT
+  background-color: color.adjust(
+    $sidebar-background-color,
+    $lightness: -10%
+  ) !important; // HIER GEÄNDERT
   color: $sidebar-text-color !important; // Icons bleiben weiß
-  border-color: color.adjust($sidebar-text-color, $lightness: 10%) !important; // HIER GEÄNDERT
+  border-color: color.adjust(
+    $sidebar-text-color,
+    $lightness: 10%
+  ) !important; // HIER GEÄNDERT
 }

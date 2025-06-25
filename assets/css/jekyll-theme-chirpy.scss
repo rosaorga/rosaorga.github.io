@@ -6,13 +6,12 @@ $sidebar-background-color: #cc0000; // Ein kräftiges Rot (für Sidebar-Hintergr
 $sidebar-text-color: #ffffff; // Reines Weiß (für Sidebar-Text, Ränder der Social Icons)
 $sidebar-border-color: #aa0000; // Etwas dunkleres Rot für den Rand der Sidebar
 
-/* prettier-ignore */
-@use 'main';
-
-// ***************************************************************
-// `@use "sass:color";` MUSS HIER STEHEN, NACH @use 'main'!
-@use 'sass:color';
-// ***************************************************************
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+@use 'sass:color';    
 
 // Regel für die Sidebar (ID-Selektor mit !important, wie besprochen)
 #sidebar {

@@ -149,6 +149,9 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
+paginate: 15 # Anzahl der Posts pro Seite (Ändere 5 nach Belieben)
+paginate_path: "/page:num/" # URL-Struktur für Paginierungsseiten (z.B. /page2/)
+
 # pagination:
 # enabled: true
 # per_page: 10 # Anzahl der Posts pro Seite (ersetzt 'paginate:')
@@ -243,5 +246,5 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-# plugins:
-# - jekyll-paginate-v2
+plugins:
+  - jekyll-paginate

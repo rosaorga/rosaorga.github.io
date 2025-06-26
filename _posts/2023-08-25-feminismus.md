@@ -1,0 +1,30 @@
+---
+title: "Feminismus"
+date: 2023-08-25
+---
+
+> “Keine Frauenbefreiung ohne Sozialismus, kein Sozialismus ohne Frauenbefreiung.”
+> 
+> \- Alexandra Kollontai
+
+  
+Wir leben in einer Welt, in der der Kapitalismus alle Bereiche unseres Lebens durchdrungen hat. Arbeit, Familie, Reproduktion, aber auch die Definitionen und Rollen von Geschlechtern, die Frage, was es heißt eine Frau zu sein. Geschlechter und Geschlechterrollen sind lange nicht überwunden und immer noch leiden Frauen im Patriarchat unter prekären Arbeitsbedingungen und Verwertungszwang und leisten den Großteil der unbezahlten Reproduktionsarbeit. Frauen werden in diesem System doppelt ausgebeutet: bei der Lohnarbeit als Produktionskraft, als auch in den eigenen vier Wänden. Der Verkauf ihrer Arbeitskraft an Firmen und Konzerne wird trotz gleicher Ausbildung und Beschäftigung geringer bezahlt als der ihrer männlichen Kollegen. So werden sie strukturell von Männern abhängig gemacht. Übernehmen Frauen, wie es wegen des Gender Pay Gaps (der immer noch bei 18% liegt) für die meisten heterosexuellen Paare strukturell notwendig ist, zusätzlich noch die sogenannte Reproduktionsarbeit, wird diese zur Hintegrundtätigkeit verschleiert und erfährt weder Entlohnung noch gesellschaftliche Wertschätzung. So benötigt es die kapitalistische Wirtschaftsweise schließlich. Wir sehen, die klassische geschlechtliche Arbeitsteilung mit der Frau zuhause und dem Mann in der Lohnarbeit oder auch die liberale Darstellung von Männern im Job und "Girlbossen" in Führungspositionen ist ein Mythos. Denn im kapitalistischen System müssen die meisten Frauen zusätzlich zu den ihnen aufgebürdeten Reproduktionstätigkeiten noch Teilzeit und Minijobs übernehmen, um über die Runden zu kommen. Und nicht mal das reicht für die meisten aus, um Altersarmut zu entgehen. Dabei werden konservative Geschlechterrollen und Geschlechterungleichheiten (re)produziert. Immer noch werden FLINTA (Frauen, Lesben, Inter- Nichtbinäre, Trans- und Agender Personen), besonders jüngere FLINTA sexualisiert, während ihnen eigenmächtige Sexualität abgesprochen wird.
+
+Die Lösungsansätze, die uns dafür angeboten werden, zeugen von der Monopolstellung des Liberalfeminismus. Dieser weist uns mit individualistischen Empfehlungen zurück, einen self-care-day einzulegen oder „höhere“ Positionen in Firmen einzunehmen. Dabei werden die strukturellen sowie histori- schen und sozialen Faktoren völlig ausgeblendet. Migrantische Frauen und Queers (LGBTQIA+) sind von patriarchalen und rassistischen Strukturen be- sonders betroffen. Häufig erfahren sie Diskriminierung in Form von geringeren Chancen auf dem Arbeitsmarkt und bei der Wohnungssuche. Doch auch weit darüber hinaus wird im sogenannten "weißen Feminismus", einer Spielart des liberalen Feminismus, das alleinige Prinzip von Diskriminierung durch das Geschlecht oder die Geschlechtsidentität vorgeschoben, ohne dass dabei wichtige Faktoren wie Ethnie, Hautfarbe, Religion und Klassenzugehörigkeit berücksichtigt werden. Parallel dazu nimmt häusliche Gewalt im allgemeinen stetig zu, 2022 gab mehr als 143.000 Opfer von häuslicher Gewalt, die Dunkelziffer liegt vermutlich deutlich höher.
+
+Frauen werden unterdrückt, in eine finanzielle Abhängigkeit gedrängt und körperlich, sexuell und emotional missbraucht und misshandelt. Auf die Hilfe der Polizei können gerade migrantische Frauen nicht zählen. Sie werden nicht ernst genommen, sehen sich mit rassistischen Strukturen konfrontiert und letzendlich wird ihnen selbst die Schuld für den Missbrauch gegeben.
+
+- ![](assets/img/old-posts/Collonthai-768x1024.jpeg)
+    
+- ![](assets/img/old-posts/Zetkin_luxemburg1910-725x1024.jpeg)
+    
+
+_Alexandra Kollontai, Clara Zetkin und Rosa Luxemburg waren feministische Marxistinnen, die für die Befreiung der Frau und den Sozialismus kämpften._
+
+Jeden Tag versucht ein Mann eine Frau umzubringen, weil sie eine Frau ist, jeden dritten gelingt es. So also endet jeder dritte Tag für eine von uns mit der Ermordung durch Männer. Die herrschende Klasse versucht dieses Symptom des Kapitalismus in der privaten Sphäre zu verordnen und isoliert Feminizide von einander als “Familientragödien". Doch wir wehren uns, lassen uns nicht ins Private zurückdrängen und kämpfen entschlossen. Nehmt ihr uns eine, antworten wir alle. Wir als Feminist:innen dürfen nicht übersehen, dass kapitalistische Ausbeutung sowie die entsprechenden Eigentumsverhältnisse und Produktionsweise ganz eng verbunden sind mit patriarchaler Unterdrückung und rassistischen Strukturen. Wir brauchen eine ernsthafte und intensive Auseinandersetzung mit rassistischer und sexistischer Diskriminierung in seiner historischen sowie gegenwärtigen Form. Wir müssen Feminismus von seinen kolonialen und liberalen Fesseln befreien.
+
+Doch auch unsere eigenen Reihen sind nicht frei von patriarchaler Gewalt. Immer wieder kommen Fälle von sexualisierter Gewalt zutage, wird Victim-Blaming betrieben, Misogynie weiter internalisiert. Dies zeigt, dass es nicht reicht, den Klassenfeind und das Kapital anzugreifen. Wir brauchen neben unserer revolutionären Arbeit feministische Praxis. Familie, Arbeitsteilung, rechtliche und soziale Gleichstellung, Antirassismus, Liebe, Sexualität und Körperlichkeiten müssen also ein bestehender Teil feministischer Theorie sein. Wir dürfen uns nicht in private Sphären zurück drängen lassen, stattdessen müssen wir gesamtgesellschaftlich kämpfen. Der materialistische und marxistische Feminismus erkennt: der Kapitalismus und das damit verwobene Patriarchat sind grundsätzliche Elemente der weiterhin bestehenden Unterdrückung von Frauen und Queers.  
+Doch sind sowohl der Kapitalismus als auch das Patriarchat nicht naturgegeben, sondern bilden Strukturen, die nicht nur überwunden werden können, sondern um die wirkliche und tatsächliche Befreiung von Frauen und Queers zu erreichen, umgestürzt werden müssen.  
+Diese Art von Feminismus bedeutet für uns nicht nur Theorie, sondern ist gleichzeitig wichtiger Bestandteil unserer politischen Praxis.  
+
+![](assets/img/old-posts/1638px-Transcommunist_symbol.svg_-819x1024.png)

@@ -13,6 +13,33 @@ $sidebar-border-color: #aa0000; // Etwas dunkleres Rot für den Rand der Sidebar
 ';
 @use 'sass:color';    
 
+@font-face {
+  font-family: 'Walbaum 60pt'; /* Gib deiner Schriftart einen eindeutigen Namen */
+  src: url('/assets/fonts/walbaum-60pt/Walbaum60ptLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Verbessert das Laden der Schriftart */
+}
+
+@font-face {
+  font-family: 'Walbaum 60pt';
+  src: url('/assets/fonts/walbaum-60pt/Walbaum60ptLight.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Walbaum 60pt';
+  src: url('/assets/fonts/walbaum-60pt/Walbaum60ptItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+
 // Regel für die Sidebar (ID-Selektor mit !important, wie besprochen)
 #sidebar {
   background-color: $sidebar-background-color !important;

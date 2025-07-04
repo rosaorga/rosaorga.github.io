@@ -1,5 +1,4 @@
 
-
 # Herzlich Willkommen auf unserer Website!
 
 Liebe Genossinnen und Genossen, liebe Interessierte,
